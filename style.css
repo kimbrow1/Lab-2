@@ -1,0 +1,27 @@
+body{
+  background-image: url(./imaages/./Codex\ image.png);
+  background-size: 30%;
+}
+
+h1 {
+    color: red;
+}
+
+p{
+    font-size: large;
+}
+
+ul {
+   list-style: none; 
+   color: black;
+   font-weight: bold;
+   font-size: medium;
+   border: double;
+   
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    
+}
