@@ -1,12 +1,8 @@
 "use strict"
-
-const { Button } = require("bootstrap");
-const { Alert } = require("bootstrap");
-
  
-  let answerOne =  prompt("Where do you live?").toLowerCase();
+  let answerOne =  prompt("Do you live in Memphis?").toLowerCase();
 
-   if(answerOne === "memphis" || answerOne === "m") {
+   if(answerOne === "yes" || answerOne === "y") {
     alert("I am from memphis")
     
    } else {
@@ -15,7 +11,7 @@ const { Alert } = require("bootstrap");
 
    let answerTwo = prompt("How old are you?").toLowerCase();
 
-   if (answerTwo === 30 || answerTwo === "n") {
+   if (answerTwo === "no" || answerTwo === "n") {
     alert("We them boys");
    } else {
     console.log("We are not them");
@@ -23,7 +19,7 @@ const { Alert } = require("bootstrap");
 
    let answerThree = prompt("What street you live on?").toLowerCase();
 
-   if(answerThree === "yale" && answerThree === 15 ) {
+   if(answerThree === "no" && answerThree === "n" ) {
     alert ("This is the street i live on")
    } else{
     console.log("Im now living in Nashville")
@@ -43,9 +39,7 @@ const { Alert } = require("bootstrap");
 
    if (answerFive === "no" || answerFive === "n") {
     alert("Are you trying to fail")
-  } if (answerFive === "yes" || answerFive === "y"){
-    alert("We are doing great!")
-} else {
+  } else {
   alert("We are not doing great")
  };
 
