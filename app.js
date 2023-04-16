@@ -29,10 +29,8 @@
 
    if(answerFour <= 10) {
     alert("Thats not long")
-   } if (answerFour > 10 ) {
-    alert("How long you plan to stay?")
    } else  {
-    alert("Im here to stay");
+    console.log("Im here to stay");
    };
 
    let answerFive = prompt("Have you completed the project").toLocaleLowerCase();
@@ -40,10 +38,5 @@
    if (answerFive === "no" || answerFive === "n") {
     alert("Are you trying to fail")
   } else {
-  alert("We are not doing great")
+  alert("We are doing great")
  };
-
- 
-   
-
-
