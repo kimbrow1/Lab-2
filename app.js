@@ -17,7 +17,7 @@
     console.log("We are not them");
    }; 
 
-   let answerThree = prompt("What street you live on?").toLowerCase();
+   let answerThree = prompt("Do you go home often?").toLowerCase();
 
    if(answerThree === "no" && answerThree === "n" ) {
     alert ("This is the street i live on")
