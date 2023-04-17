@@ -25,10 +25,10 @@
     console.log("Im now living in Nashville")
    };
 
-   let answerFour = prompt("How long have you been here?").toLocaleLowerCase();
+   let answerFour = prompt("Do you like living in nashville?").toLocaleLowerCase();
 
-   if(answerFour <= 10) {
-    alert("Thats not long")
+   if(answerFour === "yes" || answerFour === "y") {
+    alert("Yes I like living in Nashville more than anything")
    } else  {
     console.log("Im here to stay");
    };
