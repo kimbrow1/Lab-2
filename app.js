@@ -9,7 +9,7 @@ let answerOne =  prompt("Do you live in Memphis?").toLowerCase();
   console.log("New York");
  };
 
- let answerTwo = prompt("How old are you?").toLowerCase();
+ let answerTwo = prompt("Are you 10 years old?").toLowerCase();
 
  if (answerTwo === "no" || answerTwo === "n") {
   alert("We them boys");
@@ -25,12 +25,11 @@ let answerOne =  prompt("Do you live in Memphis?").toLowerCase();
   console.log("Im now living in Nashville")
  };
 
- let answerFour = prompt("Do you like living in nashville?").toLocaleLowerCase();
+ let answerFour = prompt("Is football your favorite sport?").toLocaleLowerCase();
 
  if(answerFour === "yes" || answerFour === "y") {
-  alert("Yes I like living in Nashville more than anything")
- } else  {
-  console.log("Im here to stay");
+  alert("Football is great")
+  console.log("They Prefer basketball");
  };
 
  let answerFive = prompt("Have you completed the project").toLocaleLowerCase();
