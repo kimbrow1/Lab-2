@@ -84,12 +84,11 @@ if (attemptsSix === 0) {
     console.log("That is correct!");
 }
 
-// Question 7
 let answerSeven;
 let answerCount = 6;
 let answerRight = false;
 
-while (answerCount > 0) {
+while (answerCount >= 0) {
   answerSeven = prompt("Tell me about you favorite place to visit");
   for (var i = 0; i < possibleAnswers.length; i++) {
     if (answerSeven.toLowerCase() === possibleAnswers[i].toLowerCase()) {
@@ -105,16 +104,15 @@ while (answerCount > 0) {
   alert("Incorrect! " + (answerCount - 1));
   answerCount--;
 }
-if (answerCount == 0) {
+if (answerCount >= 0) {
   alert("Out of guesses. Possible answers were: " + possibleAnswers.join(", "));
 }
 
 {
-  console.log("Question 7 Tell me about your favorite place to visit");
-  console.log("Possible correct answers: " + possibleAnswers.join(", "));
+  console.log("Whats your favorite place to visit");
+  console.log("Correct answers: " + possibleAnswers.join(", "));
   console.log("User's answer: " + answerSeven);
   console.log("They got it correct? " + answerSeven);
 }
 
-// Display total correct answers
 alert("You got " + correctAnswers + " Correct");
